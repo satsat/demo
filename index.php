@@ -7,4 +7,7 @@ $options = [
     'cost' => 12,
 ];
 echo "Password3: ".password_hash("rasmuslerdorf", PASSWORD_BCRYPT, $options);
+
+echo 'Argon2i hash: ' . password_hash('rasmuslerdorf','');
+
 ?>
